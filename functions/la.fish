@@ -1,3 +1,3 @@
-function la -d 'list files (with hidden) using exa' -w exa
-    command exa -l --group-directories-first --git -a $argv
+function la -d 'list files (with hidden) using eza' -w eza
+    command eza -l --group-directories-first --git -a $argv
 end
