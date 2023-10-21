@@ -1,3 +1,3 @@
 function l -d 'list files with eza' -w eza
-    command eza -l --group-directories-first --git --git-ignore $argv
+    _fish_eza_wrapper -l --group-directories-first --git --smart-group --git-ignore $argv
 end

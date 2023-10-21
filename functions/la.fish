@@ -1,3 +1,3 @@
 function la -d 'list files (with hidden) using eza' -w eza
-    command eza -l --group-directories-first --git -a $argv
+    _fish_eza_wrapper --git-repos -l -a $argv
 end
